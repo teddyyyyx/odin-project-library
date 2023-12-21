@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+
+}
+#new-form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    /* background-color: rgba(223, 217, 217, 0.548); */
+    border: 1px solid grey;
+    padding: 30px;
+    border-radius: 40px;
+    align-items: center;
+}
+
+
+#new-form > input{
+    width: 70%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+#new-book-button{
+    width: 120px;
+    height: 50px;
+}
